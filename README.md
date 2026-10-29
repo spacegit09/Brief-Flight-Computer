@@ -13,7 +13,7 @@ baro_servo.ino
 deploy_only.ino
   - Sensors: none
   - Breakwire detects launch and timer triggers servo to actuate.
-  - Used when launching with low battery current/backup system
+  - Used for backup system/launch with low battery current
 
 Three files can be combined easily to customize your avionics software according to your configuration. For example, accel_pyro.ino and baro_servo.ino can be combined to add ADXL375 logging functionality to servo-actuated deployment system. 
 
