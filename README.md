@@ -8,11 +8,11 @@ accel_pyro.ino
 
 baro_servo.ino
   - Sensors: BME280. Data saved into micro SD card.
-  - Breakwire detects launch and timer triggers servo to actuate.
+  - Breakwire detects the launch and timer triggers servo to actuate.
 
 deploy_only.ino
   - Sensors: none
-  - Breakwire detects launch and timer triggers servo to actuate.
+  - Breakwire detects the launch and timer triggers servo to actuate.
   - Used for backup system/launch with low battery current
 
 Three files can be combined easily to customize your avionics software according to your configuration. For example, accel_pyro.ino and baro_servo.ino can be combined to add ADXL375 logging functionality to servo-actuated deployment system. 
